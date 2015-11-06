@@ -9,6 +9,9 @@ description: |
     -c       Generate CSI-format index for BAM files
     -m INT   Set minimum interval size for CSI indices to 2^INT [14]
 
+dct:creator:
+  foaf:name: Andy Yang
+
 requirements:
   - class: DockerRequirement
     dockerPull: "quay.io/cancercollaboratory/dockstore-tool-samtools-index"
