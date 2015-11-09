@@ -11,10 +11,11 @@ description: |
 
 dct:creator:
   foaf:name: Andy Yang
+  foaf:mbox: "mailto:ayang@oicr.on.ca"
 
 requirements:
   - class: DockerRequirement
-    dockerPull: "quay.io/cancercollaboratory/dockstore-tool-samtools-index"
+    dockerPull: "quay.io/cancercollaboratory/dockstore-tool-samtools-sort"
   - { import: node-engine.cwl }
 
 inputs:
@@ -78,4 +79,3 @@ arguments:
       engine: node-engine.cwl
       script: |
         $job['bai']?'-b':$job['csi']?'-c':[]
-
