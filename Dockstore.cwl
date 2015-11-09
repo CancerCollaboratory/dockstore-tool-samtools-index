@@ -79,3 +79,4 @@ arguments:
       engine: node-engine.cwl
       script: |
         $job['bai']?'-b':$job['csi']?'-c':[]
+
