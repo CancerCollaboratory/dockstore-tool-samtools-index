@@ -6,8 +6,6 @@ ENV NAME="samtools"
 ENV URL="https://github.com/samtools/samtools/archive/${VERSION}.tar.gz"
 #https://github.com/samtools/htslib/archive/1.2.1.tar.gz
 
-ENV DOCKER_REPO="scidap/${NAME}:v${VERSION}"
-
 RUN  apt-get update \
   && apt-get install -y wget \
   && apt-get install -y git
