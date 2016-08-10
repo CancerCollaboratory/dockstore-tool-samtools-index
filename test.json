@@ -1,0 +1,13 @@
+{
+  "input": {
+    "path": "rna.SRR948778.bam",
+    "class": "File"
+  },
+  "sorted": {
+    "path": "rna.SRR948778.bam.sorted",
+    "class": "File"
+  },
+  "fakeoutput": "rna.SRR948778.bam",
+  "csi": false,
+  "bai": false
+}
