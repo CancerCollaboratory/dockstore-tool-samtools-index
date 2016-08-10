@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/CancerCollaboratory/dockstore-tool-samtools-index.svg)](https://travis-ci.org/CancerCollaboratory/dockstore-tool-samtools-index)
-[![Docker Repository on Quay](https://quay.io/repository/collaboratory/dockstore-tool-samtools-index/status "Docker Repository on Quay")](https://quay.io/repository/collaboratory/dockstore-tool-samtools-index)
+[![Docker Repository on Quay](https://quay.io/repository/cancercollaboratory/dockstore-tool-samtools-index/status "Docker Repository on Quay")](https://quay.io/repository/cancercollaboratory/dockstore-tool-samtools-index)
 
 This tool has been validated as a CWL draft-3 and v1.0 CommandLineTool. 
 
