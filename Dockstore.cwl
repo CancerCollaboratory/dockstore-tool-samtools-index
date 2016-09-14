@@ -15,7 +15,7 @@ dct:description: 'Developed at Cincinnati Children’s Hospital Medical Center f
   CWL consortium http://commonwl.org/ Original URL: https://github.com/common-workflow-language/workflows'
 requirements:
 - class: DockerRequirement
-  dockerPull: quay.io/cancercollaboratory/dockstore-tool-samtools-index
+  dockerPull: quay.io/cancercollaboratory/dockstore-tool-samtools-index:1.0
 - class: InlineJavascriptRequirement
   expressionLib:
   - var new_ext = function() { var ext=inputs.bai?'.bai':inputs.csi?'.csi':'.bai';
